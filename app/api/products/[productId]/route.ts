@@ -58,7 +58,7 @@ export const POST = async (
       collections,
       tags,
       sizes,
-      colours,
+      colors,
       price,
       expense,
     } = await req.json();
@@ -108,7 +108,7 @@ export const POST = async (
         collections,
         tags,
         sizes,
-        colours,
+        colors,
         price,
         expense,
       },

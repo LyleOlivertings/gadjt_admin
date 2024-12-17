@@ -22,7 +22,7 @@ export const POST = async (req: NextRequest) => {
       collections,
       tags,
       sizes,
-      colours,
+      colors,
       price,
       expense,
     } = await req.json();
@@ -41,12 +41,13 @@ export const POST = async (req: NextRequest) => {
       collections,
       tags,
       sizes,
+      colors,
       price,
       expense,
-      colours,
     });
 
     await newProduct.save();
+
 
     if (collections) {
       for (const collectionId of collections) {
