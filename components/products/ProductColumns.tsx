@@ -1,6 +1,6 @@
 "use client";
 
-import Delete from "@/components/custom ui/Delete";
+import Delete from "@/components/customui/Delete";
 import { ColumnDef } from "@tanstack/react-table";
 import Link from "next/link";
 

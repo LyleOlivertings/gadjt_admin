@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { DataTable } from "@/components/custom ui/dataTable";
+import { DataTable } from "@/components/customui/DataTable";
 import { columns } from "../../../components/collections/CollectionColumns";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";

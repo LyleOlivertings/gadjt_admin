@@ -17,13 +17,13 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "../ui/textarea";
-import ImageUpload from "../custom ui/ImageUpload";
+import ImageUpload from "../customui/ImageUpload";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import Delete from "../custom ui/Delete";
-import MultiText from "../custom ui/MultiText";
-import MultiSelect from "../custom ui/MultiSelect";
-import Loader from "../custom ui/Loader";
+import Delete from "../customui/Delete";
+import MultiText from "../customui/MultiText";
+import MultiSelect from "../customui/MultiSelect";
+import Loader from "../customui/Loader";
 
 const formSchema = z.object({
   title: z.string().min(2).max(20),
